@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&display=swap');
+
+/* cores */
+:root{
+    --cor-1: #00000000;
+    --cor-2: #b9b9b9;
+
+    --fonte-1: Arimo, sans-serif;
+    --fonte-2: Leagure Spartan, sans-serif;
+    --fonte-3: Archivo, sans-serif;
+}
+
+body{
+    width: 1440px solid;
+    height: 1024px solid;
+}
+
+/* navegação começo */
+.medi{
+    margin-top: 66px;
+    margin-left: 108px;
+}
+
+.navegas1{
+    margin-left: 170px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas1::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas1:hover::after{
+    width: 100%;
+}
+
+.navegas2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas2::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas2:hover::after{
+    width: 100%;
+}
+
+.navegas3{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas3::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas3:hover::after{
+    width: 100%;
+}
+
+.navegas4{
+    padding-top: 5px;
+    border-top:  3px solid black;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+}
+/* navegação final */
+
+/* titulo */
+.título_geral{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    font-family: var(--fonte-2);
+    font-size: 25px;
+    text-align: right;
+
+    margin-top: -70px;
+    padding-left: 900px;
+    margin-right: 240px;
+}
+
+/* texto 1 */
+.texto1{
+    margin-top: 60px;
+    position: absolute;
+    place-content: left;
+    top: 25%;
+    left: 0px;
+}
+
+.texto1_titulo{
+    margin-left: 220px;
+    font-family: var(--fonte-2);
+    font-size: 25px;
+}
+
+.texto1_texto{
+    margin-top: -10px;
+    margin-left: 108px;
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+    margin-right: 30px;
+    padding-right: 700px;
+}
+/*texto 1 finalizado*/
+
+/* texto 2 */
+.texto2{
+    margin-top: 347.3px;
+    margin-bottom: 108px;
+    margin-left: 108px;
+    margin-right: 480px;
+    padding-right: 250px;
+    position: absolute;
+    left: 0px;
+}
+
+.texto2_titulo{
+    font-family: var(--fonte-2);
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto2_texto{
+    margin-top: -10px;
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+}
+/* texto 2 finalizado */
+
+/* texto 3 */
+.texto3{
+    margin-top: 160px;
+    margin-left: 630px;
+    margin-right: 108px;
+    position: absolute;
+    right: 0px;
+}
+
+.texto3_titulo{
+    margin-left: 260px;
+    font-family: var(--fonte-2);
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto3_texto{
+    margin-right: -70px;
+    margin-top: -10px;
+    padding-left: 240px;
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+}
+/* texto 3 finalizado */
+
+/* texto 4 */
+.texto4{
+    margin-left: 800px;
+    margin-top: 430px;
+    margin-bottom: 108px;
+    position: absolute;
+    right: 0px;
+}
+
+.texto4_titulo{
+    font-family: var(--fonte-2);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto4_texto{
+    margin-top: -10px;
+    padding-left: 80px;
+    padding-right: 40px;
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+}
+/* texto 4 finalizado */

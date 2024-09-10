@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&display=swap');
+
+/* cores */
+:root{
+    --cor-1: #00000000;
+    --cor-2: #b9b9b9;
+
+    --fonte-1: Arimo, sans-serif;
+    --fonte-2: Leagure Spartan, sans-serif;
+    --fonte-3: Archivo, sans-serif;
+}
+
+body{
+    width: 1440px solid;
+    height: 1024px solid;
+}
+
+/* navegação começo */
+.medi{
+    margin-top: 66px;
+    margin-left: 108px;
+}
+
+.navegas1{
+    margin-left: 170px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas1::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas1:hover::after{
+    width: 100%;
+}
+
+.navegas2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas2::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas2:hover::after{
+    width: 100%;
+}
+
+.navegas3{
+    padding-top: 5px;
+    border-top:  3px solid black;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+}
+
+.navegas4{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas4::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas4:hover::after{
+    width: 100%;
+}
+
+nav a{
+    margin-top: 73px;
+    margin-left: 247px;
+}
+/*fim navegação*/
+
+/* texto começo */
+.txt{
+    margin-top: 79px;
+}
+
+.txt_titulo{
+    font-family: var(--fonte-2);
+    font-size: 50px;
+    margin-left: 158px;
+}
+
+.txt_txt{
+    font-family: var(--fonte-2);
+    font-size: 22px;
+    margin-left: 158px;
+    padding-right: 820px;
+    text-align: justify;
+
+}
+/* texto final */
+
+/* imagens começo */
+.img1{
+    width: 518px;
+    height: 404px;
+    margin-left: 154px;
+    margin-bottom: 82px;
+}
+
+.img2{
+    width: 618px;
+    height: 628px;
+    position: absolute;
+    right: 0%;
+    margin-top: -270px;
+    margin-right: 110px;
+}

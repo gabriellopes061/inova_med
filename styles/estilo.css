@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&display=swap');
+
+/* cores */
+:root{
+    --cor-1: #00000000;
+    --cor-2: #c5c5c5c1;
+
+    --fonte-1: Arimo, sans-serif;
+    --fonte-2: Leagure Spartan, sans-serif;
+    --fonte-3: Archivo, sans-serif;
+}
+
+body{
+    width: 1440px solid;
+    height: 1024px solid;
+}
+
+/* navegação começo */
+.medi{
+    margin-top: 66px;
+    margin-left: 108px;
+}
+
+.navegas1{
+    padding-top: 5px;
+    margin-left: 170px;
+    border-top:  3px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+}
+
+.navegas2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas2::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas2:hover::after{
+    width: 100%;
+}
+
+.navegas3{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas3::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas3:hover::after{
+    width: 100%;
+}
+
+.navegas4{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-1);
+    font-size: 19px;
+    position: relative;
+}
+
+.navegas4::after{
+    margin-top: -8px;
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #77c2dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.navegas4:hover::after{
+    width: 100%;
+}
+
+nav a{
+    margin-top: 73px;
+    margin-left: 247px;
+}
+/* fim navegação */
+
+/* foto e texto 1 começo */
+.foto_{
+    width: 430px;
+    height: 700px;
+    border-radius: 6%;
+    background-color: var(--cor-2);
+
+    margin-top: 16px;
+    margin-left: 44px;
+    margin-bottom: 42px;
+    justify-content: center;
+
+    text-align: end;
+}
+
+.foto_texto{
+    font-family: var(--fonte-1);
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.foto_ img{
+    width: 387.2px;
+    height: 535.7px;
+
+    margin-right: 25px;
+    margin-top: 20px
+}
+/* foto e texto 1 final */
+
+/* textos começo */
+.inova{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+}
+
+.tituloo{
+    font-family: var(--fonte-2);
+    font-size: 55px;
+    text-align: center;
+    padding-left: 480px;
+    margin-top: -45px;
+}
+
+.titulooo{
+    font-family: var(--fonte-2);
+    font-size: 120px;
+    padding-left: 1140px;
+    margin-top: -170px;
+}
+
+.textu{
+    font-family: var(--fonte-2);
+    font-size: 55px;
+    text-align: center;
+    padding-left: 520px;
+    margin-top: -5px;
+}
+
+.textoo1{
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+    margin-top: -70px;
+    padding-left: 640px;
+    padding-right: 170px;
+}
+
+.textoo2{
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+    padding-left: 640px;
+    padding-right: 170px;
+}
+
+.textoo3{
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+    padding-left: 640px;
+    padding-right: 170px;
+}
+
+.textoo4{
+    font-family: var(--fonte-1);
+    font-size: 22.2px;
+    text-align: justify;
+    padding-left: 640px;
+    padding-right: 170px;
+}
+/* textos final */
